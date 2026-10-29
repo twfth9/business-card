@@ -1,0 +1,120 @@
+(footprint "Worthington_R_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bdaac426-8e06-47ab-9616-e192c155d2b9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Worthington_R_0402"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00f34189-9818-4649-bd0f-c18d51c377ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d06affd0-7220-4317-8474-c69624a715b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bfbee46-8d6e-471a-9dc1-011ff708a1c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.05 -0.55)
+		(end 1.05 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "90cce0ed-13a8-45c6-afe6-d2960d537ec2")
+	)
+	(fp_rect
+		(start -1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ca1d7a0e-d2a4-421b-990e-1a403a2a1634")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb149023-1abb-40c8-bdc7-a1ca18865316")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7bc7f9c0-eb16-4811-914e-3fa7d04e608b")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b3f0737f-9bca-4b57-b1d2-09bdcb8214f6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,149 @@
+(footprint "XL-1010RGBC-2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1x1 mm RGB Addressable LED")
+	(tags "LED RGB NeoPixel Nano 1010 WS2812B WS2812")
+	(property "Reference" "REF**"
+		(at 0 -1.19 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4b9236e-bca7-446c-b748-5eea27a7a83c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "XL-1010RGBC-2812B"
+		(at 0 2.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "452b9e22-d154-46f8-83ff-11fb7a0413b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C5349953.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cac7320-99c0-415c-8703-490851152605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1x1 mm RGB Addressable LED"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa703b83-80c1-4210-86d7-ac7125541711")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.74 -0.76)
+		(end -0.29 -0.76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37feba37-17a0-4204-be2c-6ec0c5b88851")
+	)
+	(fp_line
+		(start -0.74 -0.31)
+		(end -0.74 -0.76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56050393-1260-4ee8-9087-0bdc96312bb7")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0338b8b1-7cca-45fa-9ae5-be92a3025d39")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0ca94401-58d3-4e03-858d-8a605ff3b252")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.64 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9a934f2-67a0-4e13-95f7-b835aca9b748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.415 -0.435)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f0a90f4-97ef-44c4-9040-94b9a9ad9456")
+	)
+	(pad "2" smd rect
+		(at 0.425 -0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e1c879f-4f6c-468b-9bd8-842237f01c37")
+	)
+	(pad "3" smd rect
+		(at -0.425 0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "358cb113-370c-469a-b630-32ee61ebf95f")
+	)
+	(pad "4" smd rect
+		(at 0.425 0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f38a8f2-1699-4f2e-8d68-c9eb24c2eef0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/SMD4_XL-1010RGBC_XLG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

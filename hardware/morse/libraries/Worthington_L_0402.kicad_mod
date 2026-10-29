@@ -1,0 +1,120 @@
+(footprint "Worthington_L_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ff768eb-701f-4b9e-af14-833ea5a528e2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Worthington_L_0402"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0488a0ec-4a9e-4a9c-9a41-cf60160d813c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f83a60b-f677-45cf-84f4-1f64d3db03f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "525e9149-c8f0-44f3-8463-d62f54310537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.05 -0.55)
+		(end 1.05 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39b492f2-9e92-404a-b21b-2eda60488724")
+	)
+	(fp_rect
+		(start -1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "94457138-7456-4905-9c68-870e3c04b6b9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e80a3eb0-9a65-47a6-a03c-2eb201114b15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ca1311ae-e018-4cd3-947f-1760d1d9aad8")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6c76c0ea-0a0a-4722-9568-a807a8fd279e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

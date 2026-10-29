@@ -1,0 +1,128 @@
+(footprint "MCL0404FRGB1U"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.93 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "693c599b-82eb-42ae-ad75-b90b0a76ff24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MCL0404FRGB1U"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a081bb4-ea62-4946-a8df-c4b8347fe334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cd80282-e0e3-455a-a280-5961b67b3ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10203533-510e-467a-ae7d-2462f15e387c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.45 -0.45)
+		(end 0.45 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4a9c643-5277-4a8d-ae80-8dca87374b2b")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "71c5abc2-ac92-4f39-809e-a180268edfbc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c83307d-33f5-4979-9831-c91a428c40c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.5)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb9677ea-1229-4b8f-8d26-e275145fd172")
+	)
+	(pad "2" smd rect
+		(at 0.5 -0.5)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3751d9f-4a7b-4b81-856d-c13e998652a6")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.5)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65d0cafd-8ccb-476d-84b4-59fa2eabc586")
+	)
+	(pad "4" smd rect
+		(at -0.5 0.5)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "738bd69f-5dda-4ca1-bb98-635f66768aab")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/MCL0404FRGB1U.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

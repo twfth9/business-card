@@ -1,0 +1,120 @@
+(footprint "Worthington_L_Narrow_0201"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e70cd3ab-7af4-40be-850e-4b658276c053")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Worthington_L_Narrow_0201"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3965cbf9-c1c4-4fb9-b6fa-502a2970f644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3f14926-fdd7-41d4-8bc0-442aece3d8e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9d88bd8-8b4d-4002-bf3d-60a2125c67af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.495828 -0.282896)
+		(end 0.495829 0.282896)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a4c45241-9b4e-43eb-8c83-526e48f822a9")
+	)
+	(fp_rect
+		(start -0.496161 -0.282188)
+		(end 0.496161 0.282188)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7a796ce-a93c-4d7b-946a-690e3b6a2994")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1fd0494f-2118-4730-bb32-b584036bed25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.275 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "87ecd8c4-1a5e-4aec-b953-b16e1c2027ed")
+	)
+	(pad "2" smd roundrect
+		(at 0.275 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f1394498-0311-4c21-afa1-9ddbe286e348")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

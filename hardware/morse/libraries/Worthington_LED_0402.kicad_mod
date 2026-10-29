@@ -1,0 +1,139 @@
+(footprint "Worthington_LED_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "07c07173-b162-4de8-9191-c6d7562cf8d4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Worthington_LED_0402"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f67e59af-ae72-49b0-b321-df0417410860")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e5c1700-4697-47c8-9213-8d0faf56e25e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c685a4d-49b2-4fc3-be0e-37c399de2eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 0.55)
+		(end -1.05 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05b4a2ca-6aa6-41ca-96c1-76e180e405da")
+	)
+	(fp_line
+		(start 0 -0.55)
+		(end -1.05 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3af28efe-124d-42a5-b968-af3906752931")
+	)
+	(fp_line
+		(start 0 0.55)
+		(end -1.05 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0500320a-4939-4d0d-9486-304ed0c67444")
+	)
+	(fp_rect
+		(start -1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "37051938-2b72-4593-8886-0d58a171b4c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0c11103c-58f7-4659-85bc-223545817a8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "75ab751d-faf8-46cf-8448-bb3ad380f600")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "09095d99-4244-4979-bf5e-3ddb76a63a56")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
