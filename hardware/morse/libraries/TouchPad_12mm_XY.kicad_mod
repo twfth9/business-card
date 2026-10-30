@@ -1,0 +1,386 @@
+(footprint "TouchPad_12mm_XY"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.72 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f437dd6-0397-434a-9c5e-43aa3db6a25f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TouchPad_12mm_XY"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "598d2ce2-27ca-42c1-88cf-d9159eeb8d77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a23cd075-68f6-49e2-b340-02d837b0af70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cca7483-3753-4080-b021-272e8307f4ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9224d89-f618-4f0a-833a-6d9b2e838df3")
+	)
+	(fp_line
+		(start -7 7)
+		(end 7 -7)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4729e4b1-b6da-4d62-8143-d2e7871f9a6c")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "98d9a2b6-e4f7-4a3f-994d-91d12426e077")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "268f90a7-0dae-4340-a3f0-c4cecfbf9de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0.751104)
+		(size 0.2 12.5)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 5 4.748896)
+				(end -5 4.748896)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 0.748896)
+				(end 5 0.748896)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -0.251104)
+				(end 5 -0.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -1.251104)
+				(end 5 -1.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -2.251104)
+				(end 5 -2.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -4.251104)
+				(end 5 -4.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -6.251104)
+				(end 5 -6.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 3.748896)
+				(end 5 3.748896)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 2.748896)
+				(end 5 2.748896)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 1.748896)
+				(end 5 1.748896)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -3.251104)
+				(end 5 -3.251104)
+				(width 0.2)
+			)
+			(gr_line
+				(start -5 -5.251104)
+				(end 5 -5.251104)
+				(width 0.2)
+			)
+		)
+		(uuid "a342a33e-001c-410d-a7b0-f41f1cd2da95")
+	)
+	(pad "2" smd custom
+		(at 0 -6.5)
+		(size 0.2 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start -6 0.5)
+				(end 6 0.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -6 12.5)
+				(end -6 0.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 7.5)
+				(end -6 7.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 10.5)
+				(end -6 10.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 8.5)
+				(end -6 8.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 11.5)
+				(end -6 11.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 9.5)
+				(end -6 9.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 1.5)
+				(end -6 1.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 2.5)
+				(end -6 2.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 3.5)
+				(end -6 3.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 4.5)
+				(end -6 4.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 5.5)
+				(end -6 5.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 6.5)
+				(end -6 6.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.48 12.5)
+				(end -6 12.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 0.5)
+				(end 6 12.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 8.5)
+				(end 1.48 8.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 11.5)
+				(end 1.48 11.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 9.5)
+				(end 1.48 9.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 10.5)
+				(end 1.48 10.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 7.5)
+				(end 1.48 7.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 6.5)
+				(end 1.48 6.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 5.5)
+				(end 1.48 5.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 4.5)
+				(end 1.48 4.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 3.5)
+				(end 1.48 3.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 2.5)
+				(end 1.48 2.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 1.5)
+				(end 1.48 1.5)
+				(width 0.2)
+			)
+			(gr_line
+				(start 6 12.5)
+				(end 1.48 12.5)
+				(width 0.2)
+			)
+		)
+		(uuid "faf8e670-f06c-44a1-b745-4bf16a4d249e")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "ee01f120-c7e0-44a1-9c19-8857ea638c28")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -8 8) (xy -8 -7.999973) (xy 8 -8.000026) (xy 8 8)
+			)
+		)
+	)
+	(zone
+		(layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu"
+		)
+		(uuid "9c969ce9-001a-49e3-9426-9e854b66f9a5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -8 8) (xy -8 -7.999973) (xy 8 -8.000026) (xy 8 8)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
